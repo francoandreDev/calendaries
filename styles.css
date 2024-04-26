@@ -1,0 +1,130 @@
+:root {
+    --light-color: rgb(235, 235, 235);
+    --dark-color: rgb(20, 20, 20);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    appearance: none;
+    -webkit-appearance: none;
+    margin: 0;
+}
+input[type="number"] {
+    appearance: textfield;
+    -moz-appearance: textfield;
+    border: none;
+    outline: none;
+    text-align: center;
+    background-color: transparent;
+    max-width: 5rem;
+}
+
+html {
+    color-scheme: dark;
+    scroll-behavior: smooth;
+    scrollbar-width: none;
+}
+
+body {
+    padding: 0 5rem;
+}
+
+#year {
+    position: fixed;
+    top: 5vh;
+    right: 5vw;
+    z-index: 2;
+    border-radius: 50%;
+    border: 1px dotted var(--light-color);
+    aspect-ratio: 1/1;
+    max-width: 3rem;
+}
+
+.show-calendar-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.calendar-title {
+    text-align: center;
+    text-wrap: balance;
+    margin: 2rem 0 0 0;
+    font-size: 3rem;
+    line-height: 5.5rem;
+    border-bottom: dashed 1px var(--light-color);
+    position: relative;
+    z-index: 0;
+}
+
+.current-year {
+    margin-bottom: 3rem;
+    font-size: 1.25rem;
+    translate: 0 -0.7rem;
+    position: relative;
+    z-index: 1;
+    background-image: radial-gradient(
+        circle at 100%,
+        transparent 0,
+        var(--dark-color) 10%,
+        var(--dark-color) 90%,
+        transparent 100%
+    );
+    padding: 0 0.75rem;
+}
+
+.calendar-description {
+    text-wrap: pretty;
+    font-weight: 100;
+}
+
+.year {
+    padding: 3rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    margin-top: 3rem;
+    margin-bottom: 4rem;
+}
+
+.month {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.month-title {
+    display: grid;
+    place-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+.week-day {
+    font-weight: bold;
+}
+
+.month-days {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 5px;
+}
+
+.day {
+    padding: 10px;
+    text-align: center;
+}
+
+.separate {
+    margin: 5px 0;
+}

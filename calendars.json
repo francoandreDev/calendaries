@@ -1,0 +1,202 @@
+{
+    "calendars": {
+        "gregorian": {
+            "description": "The Gregorian calendar is the most widely used civil calendar in the world. It is based on the solar cycle and has 12 months.",
+            "months": [
+                { "name": "January", "days": 31 },
+                { "name": "February", "days": 28, "leap_day": 29 },
+                { "name": "March", "days": 31 },
+                { "name": "April", "days": 30 },
+                { "name": "May", "days": 31 },
+                { "name": "June", "days": 30 },
+                { "name": "July", "days": 31 },
+                { "name": "August", "days": 31 },
+                { "name": "September", "days": 30 },
+                { "name": "October", "days": 31 },
+                { "name": "November", "days": 30 },
+                { "name": "December", "days": 31 }
+            ],
+            "festivals": [
+                {
+                    "name": "New Year's Day",
+                    "day": 1,
+                    "month": "January",
+                    "description": "Start of the new year."
+                },
+                {
+                    "name": "International Women's Day",
+                    "day": 8,
+                    "month": "March",
+                    "description": "Celebration of social, political, and cultural achievements of women."
+                },
+                {
+                    "name": "Independence Day",
+                    "day": 4,
+                    "month": "July",
+                    "description": "Celebration of the Independence of the United States."
+                },
+                {
+                    "name": "Christmas",
+                    "day": 25,
+                    "month": "December",
+                    "description": "Celebration of the birth of Jesus Christ."
+                }
+            ]
+        },
+        "internationalFixed": {
+            "description": "The International Fixed Calendar has a constant structure with 13 months of 28 days each, with an additional leap day and a year-end day.",
+            "months": [
+                { "name": "Month01", "days": 28 },
+                { "name": "Month02", "days": 28 },
+                { "name": "Month03", "days": 28 },
+                { "name": "Month04", "days": 28 },
+                { "name": "Month05", "days": 28 },
+                { "name": "Month06", "days": 28 },
+                { "name": "Month07", "days": 28 },
+                { "name": "Month08", "days": 28 },
+                { "name": "Month09", "days": 28 },
+                { "name": "Month10", "days": 28 },
+                { "name": "Month11", "days": 28 },
+                { "name": "Month12", "days": 28 },
+                { "name": "Month13", "days": 28, "leap_day": 29 },
+                { "name": "YearEndDay", "days": 1 }
+            ],
+            "festivals": [
+                {
+                    "name": "Earth Day",
+                    "day": 22,
+                    "month": "April",
+                    "description": "Celebration to raise awareness about environmental issues."
+                },
+                {
+                    "name": "International Friendship Day",
+                    "day": 30,
+                    "month": "July",
+                    "description": "Celebration of friendship between people, countries, and cultures."
+                }
+            ]
+        },
+        "positivist": {
+            "description": "The Positivist calendar is based on the principles of Auguste Comte's Positivism. It has 13 months of 28 days each, and also includes festivals and special days.",
+            "months": [
+                { "name": "January", "days": 28 },
+                { "name": "February", "days": 28 },
+                { "name": "March", "days": 28 },
+                { "name": "April", "days": 28 },
+                { "name": "May", "days": 28 },
+                { "name": "June", "days": 28 },
+                { "name": "July", "days": 28 },
+                { "name": "August", "days": 28 },
+                { "name": "September", "days": 28 },
+                { "name": "October", "days": 28 },
+                { "name": "November", "days": 28 },
+                { "name": "December", "days": 28 },
+                { "name": "Month of Light", "days": 28 }
+            ],
+            "festivals": [
+                {
+                    "name": "Comtism",
+                    "day": 10,
+                    "month": "January",
+                    "description": "Celebration of the Positivist philosophy."
+                },
+                {
+                    "name": "Humanism",
+                    "day": 21,
+                    "month": "March",
+                    "description": "Celebration of humanity and progress."
+                },
+                {
+                    "name": "Science",
+                    "day": 13,
+                    "month": "July",
+                    "description": "Homage to science and knowledge."
+                },
+                {
+                    "name": "Industry",
+                    "day": 23,
+                    "month": "September",
+                    "description": "Recognition of industry and productive work."
+                }
+            ]
+        },
+        "revolutionary": {
+            "description": "The Revolutionary calendar, also known as the French Republican calendar, was created during the French Revolution. It has 12 months of 30 days each.",
+            "months": [
+                { "name": "Vendémiaire", "days": 30 },
+                { "name": "Brumaire", "days": 30 },
+                { "name": "Frimaire", "days": 30 },
+                { "name": "Nivôse", "days": 30 },
+                { "name": "Pluviôse", "days": 30 },
+                { "name": "Ventôse", "days": 30 },
+                { "name": "Germinal", "days": 30 },
+                { "name": "Floréal", "days": 30 },
+                { "name": "Prairial", "days": 30 },
+                { "name": "Messidor", "days": 30 },
+                { "name": "Thermidor", "days": 30 },
+                { "name": "Fructidor", "days": 30 }
+            ],
+            "festivals": [
+                {
+                    "name": "Bastille Day",
+                    "day": 14,
+                    "month": "July",
+                    "description": "Celebration of the Storming of the Bastille during the French Revolution."
+                },
+                {
+                    "name": "Fête de la Fédération",
+                    "day": 14,
+                    "month": "July",
+                    "description": "Celebration of national unity and the French Republic."
+                }
+            ]
+        },
+        "chinese": {
+            "description": "The Chinese calendar is based on lunar and solar cycles. Each year is associated with an animal from the Chinese zodiac and has 12 or 13 months.",
+            "months": [
+                { "name": "Rat", "days": 29 },
+                { "name": "Ox", "days": 30 },
+                { "name": "Tiger", "days": 29 },
+                { "name": "Rabbit", "days": 29 },
+                { "name": "Dragon", "days": 30 },
+                { "name": "Snake", "days": 29 },
+                { "name": "Horse", "days": 29 },
+                { "name": "Goat", "days": 30 },
+                { "name": "Monkey", "days": 29 },
+                { "name": "Rooster", "days": 30 },
+                { "name": "Dog", "days": 29 },
+                { "name": "Pig", "days": 30 }
+            ],
+            "additional_month": {
+                "name": "Intercalary",
+                "days": 30
+            },
+            "festivals": [
+                {
+                    "name": "Chinese New Year",
+                    "day": 1,
+                    "month": "Rat",
+                    "description": "Celebration of the start of the new lunar year."
+                },
+                {
+                    "name": "Lantern Festival",
+                    "day": 15,
+                    "month": "Rabbit",
+                    "description": "Celebration with lanterns and nighttime parades."
+                },
+                {
+                    "name": "Double Festival",
+                    "day": 15,
+                    "month": "Monkey",
+                    "description": "Celebration of the full moon and harvest."
+                },
+                {
+                    "name": "Dragon Boat Festival",
+                    "day": 5,
+                    "month": "Dragon",
+                    "description": "Celebration with dragon and lion dances."
+                }
+            ]
+        }
+    }
+}
