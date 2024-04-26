@@ -6,6 +6,12 @@ export async function buildCalendars() {
         gregorianCalendar,
         internationalFixedYear,
         internationalFixedCalendar,
+        positivistYear,
+        positivistCalendar,
+        revolutionaryYear,
+        revolutionaryCalendar,
+        chineseYear,
+        chineseCalendar,
     } = await getCalendars();
 
     printAll();
@@ -31,7 +37,28 @@ export async function buildCalendars() {
                 internationalFixedCalendar,
                 year
             );
-            const calendars = [gregorian, internationalFixed];
+            const positivist = new ShowCalendar(
+                positivistYear,
+                positivistCalendar,
+                year
+            );
+            const revolutionary = new ShowCalendar(
+                revolutionaryYear,
+                revolutionaryCalendar,
+                year
+            );
+            const chinese = new ShowCalendar(
+                chineseYear,
+                chineseCalendar,
+                year
+            );
+            const calendars = [
+                gregorian,
+                internationalFixed,
+                positivist,
+                revolutionary,
+                chinese,
+            ];
             calendars.forEach((calendar) => {
                 const sectionShowCalendar = document.createElement("section");
                 sectionShowCalendar.classList.add("show-calendar-section");
