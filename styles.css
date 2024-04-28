@@ -1,6 +1,8 @@
 :root {
     --light-color: rgb(235, 235, 235);
     --dark-color: rgb(20, 20, 20);
+    --festival-color: rgb(0, 235, 0);
+    --holiday-color: rgb(235, 0, 0);
 }
 
 * {
@@ -123,6 +125,15 @@ body {
 .day {
     padding: 10px;
     text-align: center;
+}
+
+.festival {
+    color: var(--festival-color);
+    font-weight: bold;
+}
+
+.holiday {
+    color: var(--holiday-color);
 }
 
 .separate {

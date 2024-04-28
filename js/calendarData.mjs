@@ -27,35 +27,40 @@ export async function getCalendars() {
         "Gregorian",
         gregorian.description,
         gregorian.months,
-        gregorian.festivals
+        gregorian.festivals,
+        gregorian.holidays
     );
     const internationalFixedCalendar = new Calendar(
         "International Fixed",
         internationalFixed.description,
         internationalFixed.months,
-        internationalFixed.festivals
+        internationalFixed.festivals,
+        internationalFixed.holidays
     );
 
     const positivistCalendar = new Calendar(
         "Positivist",
         positivist.description,
         positivist.months,
-        positivist.festivals
-    )
+        positivist.festivals,
+        positivist.holidays
+    );
 
     const revolutionaryCalendar = new Calendar(
         "Revolutionary",
         revolutionary.description,
         revolutionary.months,
-        revolutionary.festivals
-    )
+        revolutionary.festivals,
+        revolutionary.holidays
+    );
 
     const chineseCalendar = new Calendar(
         "Chinese",
         chinese.description,
         chinese.months,
-        chinese.festivals
-    )
+        chinese.festivals,
+        chinese.holidays
+    );
 
     const gregorianYear = gregorianCalendar.buildCalendar();
     const internationalFixedYear = internationalFixedCalendar.buildCalendar();
@@ -73,6 +78,6 @@ export async function getCalendars() {
         revolutionaryYear,
         revolutionaryCalendar,
         chineseYear,
-        chineseCalendar
+        chineseCalendar,
     };
 }

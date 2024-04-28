@@ -159,6 +159,57 @@ class ShowCalendar {
         }
     }
 
+    showDays(monthElement, month) {
+        let isFirstDay = true;
+        const days = this.dataYear[month];
+        const daysElement = document.createElement("article");
+        daysElement.classList.add("month-days");
+        monthElement.appendChild(daysElement);
+        const festivals = this.infoYear.festivals;
+        const holidays = this.infoYear.holidays;
+        for (let i = 1; i <= this.getMaxDays(month, days.length); i++) {
+            const day = document.createElement("span");
+            day.textContent = i;
+            day.classList.add("day");
+            if (this.haveFestivals(festivals, month, i)) {
+                day.classList.add("festival");
+            }
+            if (this.haveHolidays(holidays, month, i)) {
+                day.classList.add("holiday");
+            }
+            if (isFirstDay) {
+                this.showFirstDay(day);
+                isFirstDay = false;
+            }
+            daysElement.appendChild(day);
+            this.nDay++;
+        }
+    }
+
+    haveHolidays(objects, targetMonth, targetDay) {
+        return objects.some(
+            (object) => object.month === targetMonth && object.day === targetDay
+        );
+    }
+
+    haveFestivals(objects, targetMonth, targetDay) {
+        return objects.some(
+            (object) => object.month === targetMonth && object.day === targetDay
+        );
+    }
+    isLeapYear() {
+        const leapEveryYear = 4;
+        return (
+            (this.year % leapEveryYear === 0 &&
+                this.year % (leapEveryYear * 25) !== 0) ||
+            this.year % (leapEveryYear * 100) === 0
+        );
+    }
+
+    showFirstDay(day) {
+        day.style.gridColumnStart = this.calculateDayWeek(this.nDay);
+    }
+
     calculateDayWeek(currentDay) {
         const leapEveryYear = 4;
         const totalLeapDaysPassed =
@@ -169,23 +220,20 @@ class ShowCalendar {
         return (totalDaysPassed + totalLeapDaysPassed + currentDay - 1) % 7;
     }
 
-    showDays(monthElement, month) {
-        let isFirstDay = true;
-        const days = this.dataYear[month];
-        const daysElement = document.createElement("article");
-        daysElement.classList.add("month-days");
-        monthElement.appendChild(daysElement);
-        for (let i = 1; i <= days.length; i++) {
-            const day = document.createElement("span");
-            day.innerHTML = i;
-            day.classList.add("day");
-            if (isFirstDay) {
-                day.style.gridColumnStart = this.calculateDayWeek(this.nDay);
-                isFirstDay = false;
+    findIndex(monthName) {
+        return this.infoYear.months.findIndex(
+            (month) => month.name === monthName
+        );
+    }
+
+    getMaxDays(month, maxDays) {
+        const monthInfo = this.infoYear.months[this.findIndex(month)];
+        if (monthInfo.leap_day !== undefined) {
+            if (!this.isLeapYear()) {
+                maxDays--;
             }
-            daysElement.appendChild(day);
-            this.nDay++;
         }
+        return maxDays;
     }
 
     addExtraSpace(sectionYear) {

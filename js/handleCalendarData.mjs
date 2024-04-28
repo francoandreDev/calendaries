@@ -1,9 +1,10 @@
 export class Calendar {
-    constructor(name, description, months, festivals) {
+    constructor(name, description, months, festivals, holidays) {
         this.title = name;
         this.description = description;
         this.months = months;
         this.festivals = festivals;
+        this.holidays = holidays;
     }
 
     // I need a method to build the calendar

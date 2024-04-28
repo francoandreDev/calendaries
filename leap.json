@@ -1,0 +1,60 @@
+{
+    "calendars": [
+        {
+            "name": "Islamic",
+            "have_leap_year": false,
+            "is_leap_if": null,
+            "is_not_leap_if": null,
+            "leap_year_rules": "The Islamic calendar is a lunar calendar, so leap years do not have a fixed pattern."
+        },
+        {
+            "name": "Hebrew",
+            "have_leap_year": true,
+            "is_leap_if": [2, 5, 7, 10, 13, 16, 18, 0],
+            "is_not_leap_if": null,
+            "leap_year_rules": "Leap years occur in a 19-year cycle, with certain years having an additional month called Adar II."
+        },
+        {
+            "name": "Hindu",
+            "have_leap_year": false,
+            "is_leap_if": null,
+            "is_not_leap_if": null,
+            "leap_year_rules": "Leap years are determined based on specific astronomical positions, with no fixed pattern like the Gregorian calendar."
+        },
+        {
+            "name": "Gregorian",
+            "have_leap_year": true,
+            "is_leap_if": [4],
+            "is_not_leap_if": [100, 400],
+            "leap_year_rules": "A year is a leap year if it is divisible by 4, except for years that are divisible by 100 but not by 400."
+        },
+        {
+            "name": "International Fixed",
+            "have_leap_year": false,
+            "is_leap_if": null,
+            "is_not_leap_if": null,
+            "leap_year_rules": "There are no leap years in the Fixed International calendar, as each month has a fixed duration of 28 days and the year does not adjust based on solar or lunar movements."
+        },
+        {
+            "name": "Positivist",
+            "have_leap_year": false,
+            "is_leap_if": null,
+            "is_not_leap_if": null,
+            "leap_year_rules": "There are no leap years in the Positivist calendar, as each month has a fixed duration of 28 days and the year does not adjust based on solar or lunar movements."
+        },
+        {
+            "name": "Revolutionary",
+            "have_leap_year": false,
+            "is_leap_if": null,
+            "is_not_leap_if": null,
+            "leap_year_rules": "There are no leap years in the French Revolutionary calendar. Each month has a fixed duration of 30 days and adjusts based on solar movements."
+        },
+        {
+            "name": "Chinese",
+            "have_leap_year": true,
+            "is_leap_if": [3],
+            "is_not_leap_if": null,
+            "leap_year_rules": "Leap years are determined by complex rules, typically adding an intercalary month (month 13) approximately every three years."
+        }
+    ]
+}

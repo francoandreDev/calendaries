@@ -24,22 +24,132 @@
                     "description": "Start of the new year."
                 },
                 {
+                    "name": "Valentine's Day",
+                    "day": 14,
+                    "month": "February",
+                    "description": "Celebration of love and affection."
+                },
+                {
                     "name": "International Women's Day",
                     "day": 8,
                     "month": "March",
                     "description": "Celebration of social, political, and cultural achievements of women."
                 },
                 {
-                    "name": "Independence Day",
-                    "day": 4,
-                    "month": "July",
-                    "description": "Celebration of the Independence of the United States."
+                    "name": "World Health Day",
+                    "day": 7,
+                    "month": "April",
+                    "description": "Global health awareness day established by the World Health Organization."
+                },
+                {
+                    "name": "International Day of Families",
+                    "day": 15,
+                    "month": "May",
+                    "description": "Day to promote awareness of issues relating to families and to increase knowledge of the social, economic, and demographic processes affecting families."
+                },
+                {
+                    "name": "World Environment Day",
+                    "day": 5,
+                    "month": "June",
+                    "description": "Day for encouraging worldwide awareness and action for the protection of the environment."
+                },
+                {
+                    "name": "International Day of Peace",
+                    "day": 21,
+                    "month": "September",
+                    "description": "Day devoted to strengthening the ideals of peace, both within and among all nations and peoples."
+                },
+                {
+                    "name": "World Teachers' Day",
+                    "day": 5,
+                    "month": "October",
+                    "description": "Day to appreciate, assess, and improve the educators of the world."
+                },
+                {
+                    "name": "World Food Day",
+                    "day": 16,
+                    "month": "October",
+                    "description": "Day to raise awareness and action for those who suffer from hunger and for the need to ensure food security and nutritious diets for all."
+                },
+                {
+                    "name": "Universal Children's Day",
+                    "day": 20,
+                    "month": "November",
+                    "description": "Day to promote international togetherness, awareness among children worldwide, and improving children's welfare."
+                },
+                {
+                    "name": "Human Rights Day",
+                    "day": 10,
+                    "month": "December",
+                    "description": "Day to commemorate the Universal Declaration of Human Rights and to advocate for the rights and dignity of all people."
+                },
+                {
+                    "name": "Christmas Eve",
+                    "day": 24,
+                    "month": "December",
+                    "description": "Observance of the evening before Christmas Day."
                 },
                 {
                     "name": "Christmas",
                     "day": 25,
                     "month": "December",
                     "description": "Celebration of the birth of Jesus Christ."
+                },
+                {
+                    "name": "New Year's Eve",
+                    "day": 31,
+                    "month": "December",
+                    "description": "Observance of the evening before New Year's Day."
+                }
+            ],
+            "holidays": [
+                {
+                    "name": "New Year's Day",
+                    "month": "January",
+                    "day": 1,
+                    "description": "Celebrates the beginning of the new year."
+                },
+                {
+                    "name": "Valentine's Day",
+                    "month": "February",
+                    "day": 14,
+                    "description": "A day to celebrate love and affection, often marked by the exchange of cards, flowers, and gifts."
+                },
+                {
+                    "name": "St. Patrick's Day",
+                    "month": "March",
+                    "day": 17,
+                    "description": "Celebrates the patron saint of Ireland, often marked by parades, wearing green attire, and festivities."
+                },
+                {
+                    "name": "Easter Sunday",
+                    "month": "March or April",
+                    "day": "Varies",
+                    "description": "Celebrates the resurrection of Jesus Christ, observed with religious services and traditions such as Easter egg hunts and feasting."
+                },
+                {
+                    "name": "Independence Day",
+                    "month": "July",
+                    "day": 4,
+                    "description": "Commemorates the Declaration of Independence of the United States from British rule, often celebrated with fireworks, parades, and patriotic displays."
+                },
+                {
+                    "name": "Halloween",
+                    "month": "October",
+                    "day": 31,
+                    "description": "Traditionally a Celtic festival marking the end of the harvest season, now celebrated with costumes, trick-or-treating, and spooky decorations."
+                },
+                {
+                    "name": "Thanksgiving Day",
+                    "month": "November",
+                    "day": "4th Thursday",
+                    "description": "A day of giving thanks, often celebrated with family gatherings and feasting, particularly in the United States."
+                },
+                {
+                    "name": "Christmas Day",
+                    "month": "December",
+                    "day": 25,
+                    "description": "Celebrates the birth of Jesus Christ, observed with religious services, gift-giving, and festive decorations."
                 }
             ]
         },
@@ -63,16 +173,132 @@
             ],
             "festivals": [
                 {
-                    "name": "Earth Day",
-                    "day": 22,
-                    "month": "April",
-                    "description": "Celebration to raise awareness about environmental issues."
+                    "name": "New Year's Day",
+                    "day": 1,
+                    "month": "Month01",
+                    "description": "Start of the new year."
                 },
                 {
-                    "name": "International Friendship Day",
-                    "day": 30,
-                    "month": "July",
-                    "description": "Celebration of friendship between people, countries, and cultures."
+                    "name": "Leap Day",
+                    "day": 29,
+                    "month": "Month02",
+                    "description": "Extra day added to align the calendar with the solar year."
+                },
+                {
+                    "name": "International Women's Day",
+                    "day": 8,
+                    "month": "Month03",
+                    "description": "Celebration of social, political, and cultural achievements of women."
+                },
+                {
+                    "name": "Earth Day",
+                    "day": 22,
+                    "month": "Month04",
+                    "description": "Observance to support environmental protection."
+                },
+                {
+                    "name": "International Day of Families",
+                    "day": 15,
+                    "month": "Month05",
+                    "description": "Day to promote awareness of issues relating to families and to increase knowledge of the social, economic, and demographic processes affecting families."
+                },
+                {
+                    "name": "World Environment Day",
+                    "day": 5,
+                    "month": "Month06",
+                    "description": "Day for encouraging worldwide awareness and action for the protection of the environment."
+                },
+                {
+                    "name": "International Day of Peace",
+                    "day": 21,
+                    "month": "Month09",
+                    "description": "Day devoted to strengthening the ideals of peace, both within and among all nations and peoples."
+                },
+                {
+                    "name": "World Teachers' Day",
+                    "day": 5,
+                    "month": "Month10",
+                    "description": "Day to appreciate, assess, and improve the educators of the world."
+                },
+                {
+                    "name": "World Food Day",
+                    "day": 16,
+                    "month": "Month10",
+                    "description": "Day to raise awareness and action for those who suffer from hunger and for the need to ensure food security and nutritious diets for all."
+                },
+                {
+                    "name": "Universal Children's Day",
+                    "day": 20,
+                    "month": "Month11",
+                    "description": "Day to promote international togetherness, awareness among children worldwide, and improving children's welfare."
+                },
+                {
+                    "name": "Human Rights Day",
+                    "day": 10,
+                    "month": "Month12",
+                    "description": "Day to commemorate the Universal Declaration of Human Rights and to advocate for the rights and dignity of all people."
+                },
+                {
+                    "name": "Christmas Day",
+                    "day": 25,
+                    "month": "Month12",
+                    "description": "Celebration of the birth of Jesus Christ."
+                },
+                {
+                    "name": "Year-End Day",
+                    "day": 365,
+                    "month": "Month13",
+                    "description": "Observance of the end of the year in the International Fixed Calendar."
+                }
+            ],
+            "holidays": [
+                {
+                    "name": "New Year's Day",
+                    "month": "Month01",
+                    "day": 1,
+                    "description": "Celebrates the beginning of the new year."
+                },
+                {
+                    "name": "Valentine's Day",
+                    "month": "Month02",
+                    "day": 14,
+                    "description": "A day to celebrate love and affection, often marked by the exchange of cards, flowers, and gifts."
+                },
+                {
+                    "name": "St. Patrick's Day",
+                    "month": "Month03",
+                    "day": 17,
+                    "description": "Celebrates the patron saint of Ireland, often marked by parades, wearing green attire, and festivities."
+                },
+                {
+                    "name": "Easter Sunday",
+                    "month": "Month04",
+                    "day": 7,
+                    "description": "Celebrates the resurrection of Jesus Christ, observed with religious services and traditions such as Easter egg hunts and feasting."
+                },
+                {
+                    "name": "Independence Day",
+                    "month": "Month07",
+                    "day": 4,
+                    "description": "Commemorates the Declaration of Independence of the United States from British rule, often celebrated with fireworks, parades, and patriotic displays."
+                },
+                {
+                    "name": "Halloween",
+                    "month": "Month10",
+                    "day": 31,
+                    "description": "Traditionally a Celtic festival marking the end of the harvest season, now celebrated with costumes, trick-or-treating, and spooky decorations."
+                },
+                {
+                    "name": "Thanksgiving Day",
+                    "month": "Month11",
+                    "day": 4,
+                    "description": "A day of giving thanks, often celebrated with family gatherings and feasting, particularly in the United States."
+                },
+                {
+                    "name": "Christmas Day",
+                    "month": "Month13",
+                    "day": 25,
+                    "description": "Celebrates the birth of Jesus Christ, observed with religious services, gift-giving, and festive decorations."
                 }
             ]
         },
@@ -95,28 +321,126 @@
             ],
             "festivals": [
                 {
-                    "name": "Comtism",
-                    "day": 10,
+                    "name": "New Year's Day",
+                    "day": 1,
                     "month": "January",
-                    "description": "Celebration of the Positivist philosophy."
+                    "description": "Start of the new year."
                 },
                 {
-                    "name": "Humanism",
-                    "day": 21,
+                    "name": "International Women's Day",
+                    "day": 8,
                     "month": "March",
-                    "description": "Celebration of humanity and progress."
+                    "description": "Celebration of social, political, and cultural achievements of women."
                 },
                 {
-                    "name": "Science",
-                    "day": 13,
+                    "name": "Earth Day",
+                    "day": 22,
+                    "month": "April",
+                    "description": "Observance to support environmental protection."
+                },
+                {
+                    "name": "International Day of Families",
+                    "day": 15,
+                    "month": "May",
+                    "description": "Day to promote awareness of issues relating to families and to increase knowledge of the social, economic, and demographic processes affecting families."
+                },
+                {
+                    "name": "World Environment Day",
+                    "day": 5,
+                    "month": "June",
+                    "description": "Day for encouraging worldwide awareness and action for the protection of the environment."
+                },
+                {
+                    "name": "International Day of Peace",
+                    "day": 21,
                     "month": "July",
-                    "description": "Homage to science and knowledge."
+                    "description": "Day devoted to strengthening the ideals of peace, both within and among all nations and peoples."
                 },
                 {
-                    "name": "Industry",
-                    "day": 23,
+                    "name": "World Teachers' Day",
+                    "day": 5,
+                    "month": "August",
+                    "description": "Day to appreciate, assess, and improve the educators of the world."
+                },
+                {
+                    "name": "World Food Day",
+                    "day": 16,
                     "month": "September",
-                    "description": "Recognition of industry and productive work."
+                    "description": "Day to raise awareness and action for those who suffer from hunger and for the need to ensure food security and nutritious diets for all."
+                },
+                {
+                    "name": "Universal Children's Day",
+                    "day": 20,
+                    "month": "October",
+                    "description": "Day to promote international togetherness, awareness among children worldwide, and improving children's welfare."
+                },
+                {
+                    "name": "Human Rights Day",
+                    "day": 10,
+                    "month": "November",
+                    "description": "Day to commemorate the Universal Declaration of Human Rights and to advocate for the rights and dignity of all people."
+                },
+                {
+                    "name": "Christmas Day",
+                    "day": 25,
+                    "month": "December",
+                    "description": "Celebration of the birth of Jesus Christ."
+                },
+                {
+                    "name": "Year-End Day",
+                    "day": 28,
+                    "month": "Month of Light",
+                    "description": "Observance of the end of the year in the Positivist Calendar."
+                }
+            ],
+            "holidays": [
+                {
+                    "name": "New Year's Day",
+                    "month": "January",
+                    "day": 1,
+                    "description": "Celebrates the beginning of the new year."
+                },
+                {
+                    "name": "Valentine's Day",
+                    "month": "February",
+                    "day": 14,
+                    "description": "A day to celebrate love and affection, often marked by the exchange of cards, flowers, and gifts."
+                },
+                {
+                    "name": "St. Patrick's Day",
+                    "month": "March",
+                    "day": 17,
+                    "description": "Celebrates the patron saint of Ireland, often marked by parades, wearing green attire, and festivities."
+                },
+                {
+                    "name": "Easter Sunday",
+                    "month": "April",
+                    "day": 7,
+                    "description": "Celebrates the resurrection of Jesus Christ, observed with religious services and traditions such as Easter egg hunts and feasting."
+                },
+                {
+                    "name": "Independence Day",
+                    "month": "July",
+                    "day": 4,
+                    "description": "Commemorates the Declaration of Independence of the United States from British rule, often celebrated with fireworks, parades, and patriotic displays."
+                },
+                {
+                    "name": "Halloween",
+                    "month": "October",
+                    "day": 31,
+                    "description": "Traditionally a Celtic festival marking the end of the harvest season, now celebrated with costumes, trick-or-treating, and spooky decorations."
+                },
+                {
+                    "name": "Thanksgiving Day",
+                    "month": "November",
+                    "day": 4,
+                    "description": "A day of giving thanks, often celebrated with family gatherings and feasting, particularly in the United States."
+                },
+                {
+                    "name": "Christmas Day",
+                    "month": "December",
+                    "day": 25,
+                    "description": "Celebrates the birth of Jesus Christ, observed with religious services, gift-giving, and festive decorations."
                 }
             ]
         },
@@ -138,16 +462,132 @@
             ],
             "festivals": [
                 {
+                    "name": "Fête de la Raison",
+                    "day": 1,
+                    "month": "Brumaire",
+                    "description": "Celebration of Reason, an Enlightenment concept, during the French Revolution."
+                },
+                {
                     "name": "Bastille Day",
                     "day": 14,
-                    "month": "July",
-                    "description": "Celebration of the Storming of the Bastille during the French Revolution."
+                    "month": "Thermidor",
+                    "description": "Commemoration of the Storming of the Bastille, a turning point of the French Revolution."
                 },
                 {
                     "name": "Fête de la Fédération",
                     "day": 14,
-                    "month": "July",
-                    "description": "Celebration of national unity and the French Republic."
+                    "month": "Messidor",
+                    "description": "Commemoration of the unity of the French people during the French Revolution."
+                },
+                {
+                    "name": "Fête de la Liberté",
+                    "day": 10,
+                    "month": "Fructidor",
+                    "description": "Celebration of Liberty, one of the principles of the French Revolution."
+                },
+                {
+                    "name": "Fête de l'Être Suprême",
+                    "day": 20,
+                    "month": "Messidor",
+                    "description": "Celebration of the Supreme Being, a deistic concept, during the French Revolution."
+                },
+                {
+                    "name": "Fête de la Constitution",
+                    "day": 10,
+                    "month": "Vendémiaire",
+                    "description": "Celebration of the adoption of the French Constitution during the French Revolution."
+                },
+                {
+                    "name": "Fête de l'Égalité",
+                    "day": 5,
+                    "month": "Pluviôse",
+                    "description": "Celebration of Equality, one of the principles of the French Revolution."
+                },
+                {
+                    "name": "Fête de la Fraternité",
+                    "day": 5,
+                    "month": "Fructidor",
+                    "description": "Celebration of Fraternity, one of the principles of the French Revolution."
+                },
+                {
+                    "name": "Fête de la Révolution",
+                    "day": 22,
+                    "month": "Nivôse",
+                    "description": "Commemoration of the beginning of the French Revolution."
+                }
+            ],
+            "holidays": [
+                {
+                    "name": "Día de la Revolución",
+                    "month": "Vendémiaire",
+                    "day": 1,
+                    "description": "Celebra el inicio de la Revolución."
+                },
+                {
+                    "name": "Día de la Igualdad",
+                    "month": "Brumaire",
+                    "day": 5,
+                    "description": "Conmemora el principio de igualdad en la Revolución."
+                },
+                {
+                    "name": "Día de la Libertad",
+                    "month": "Frimaire",
+                    "day": 10,
+                    "description": "Celebra el principio de libertad en la Revolución."
+                },
+                {
+                    "name": "Día de la Fraternidad",
+                    "month": "Nivôse",
+                    "day": 15,
+                    "description": "Festividad que promueve el sentido de fraternidad y solidaridad."
+                },
+                {
+                    "name": "Día de la República",
+                    "month": "Pluviôse",
+                    "day": 20,
+                    "description": "Conmemora la instauración de la República."
+                },
+                {
+                    "name": "Día de la Unión",
+                    "month": "Ventôse",
+                    "day": 25,
+                    "description": "Promueve la unión y la colaboración entre los ciudadanos."
+                },
+                {
+                    "name": "Día de la Educación",
+                    "month": "Germinal",
+                    "day": 30,
+                    "description": "Festividad dedicada a la promoción de la educación y el conocimiento."
+                },
+                {
+                    "name": "Día del Trabajo",
+                    "month": "Floréal",
+                    "day": 5,
+                    "description": "Conmemora los logros y derechos de los trabajadores."
+                },
+                {
+                    "name": "Día de la Solidaridad",
+                    "month": "Prairial",
+                    "day": 10,
+                    "description": "Promueve la solidaridad y la ayuda mutua entre los ciudadanos."
+                },
+                {
+                    "name": "Día de la Justicia",
+                    "month": "Messidor",
+                    "day": 15,
+                    "description": "Celebra la importancia de la justicia y la equidad en la sociedad."
+                },
+                {
+                    "name": "Día de la Paz",
+                    "month": "Thermidor",
+                    "day": 20,
+                    "description": "Promueve la paz y la resolución pacífica de conflictos."
+                },
+                {
+                    "name": "Día de la Prosperidad",
+                    "month": "Fructidor",
+                    "day": 25,
+                    "description": "Festividad dedicada a la prosperidad y el bienestar de todos los ciudadanos."
                 }
             ]
         },
@@ -175,26 +615,88 @@
                 {
                     "name": "Chinese New Year",
                     "day": 1,
-                    "month": "Rat",
-                    "description": "Celebration of the start of the new lunar year."
+                    "month": "Intercalary",
+                    "description": "Celebration of the Lunar New Year, a significant festival in Chinese culture marking the beginning of the new year."
                 },
                 {
                     "name": "Lantern Festival",
                     "day": 15,
-                    "month": "Rabbit",
-                    "description": "Celebration with lanterns and nighttime parades."
+                    "month": "Intercalary",
+                    "description": "Celebration marking the end of Chinese New Year celebrations, featuring beautiful lanterns and evening parades."
                 },
                 {
-                    "name": "Double Festival",
-                    "day": 15,
-                    "month": "Monkey",
-                    "description": "Celebration of the full moon and harvest."
+                    "name": "Qingming Festival",
+                    "day": 4,
+                    "month": "Dragon",
+                    "description": "Festival to honor ancestors, clean tombs, and enjoy outdoor activities."
                 },
                 {
                     "name": "Dragon Boat Festival",
                     "day": 5,
                     "month": "Dragon",
-                    "description": "Celebration with dragon and lion dances."
+                    "description": "Festival commemorating the life and death of the famous Chinese poet Qu Yuan, featuring dragon boat races and traditional foods."
+                },
+                {
+                    "name": "Mid-Autumn Festival",
+                    "day": 15,
+                    "month": "Monkey",
+                    "description": "Family reunion festival celebrating the full moon, associated with eating mooncakes and admiring the moon."
+                },
+                {
+                    "name": "Double Ninth Festival",
+                    "day": 9,
+                    "month": "Monkey",
+                    "description": "Ancient festival celebrated by climbing mountains, drinking chrysanthemum wine, and enjoying outdoor activities."
+                }
+            ],
+            "holidays": [
+                {
+                    "name": "Chinese New Year",
+                    "month": "Rat",
+                    "day": 1,
+                    "description": "Celebrates the beginning of the Chinese New Year, also known as the Spring Festival."
+                },
+                {
+                    "name": "Lantern Festival",
+                    "month": "Rabbit",
+                    "day": 15,
+                    "description": "Celebration marking the end of the Chinese New Year festivities, with lanterns and parades."
+                },
+                {
+                    "name": "Qingming",
+                    "month": "Dragon",
+                    "day": 1,
+                    "description": "Day to honor and remember ancestors, also known as Tomb Sweeping Day."
+                },
+                {
+                    "name": "Labor Day",
+                    "month": "Snake",
+                    "day": 1,
+                    "description": "Commemoration of International Workers' Day, a day of rest and celebration in China."
+                },
+                {
+                    "name": "Dragon Boat Festival",
+                    "month": "Horse",
+                    "day": 1,
+                    "description": "Celebration of the fifth day of the fifth lunar month, with boat races and traditional foods."
+                },
+                {
+                    "name": "Mid-Autumn Festival",
+                    "month": "Goat",
+                    "day": 1,
+                    "description": "Festival celebrating family reunion and autumn harvest, with lanterns and mooncakes."
+                },
+                {
+                    "name": "Double Ninth",
+                    "month": "Monkey",
+                    "day": 1,
+                    "description": "Celebration of the ninth day of the ninth lunar month, with outdoor activities and mountain climbing."
+                },
+                {
+                    "name": "National Day of China",
+                    "month": "Rooster",
+                    "day": 1,
+                    "description": "Commemoration of the establishment of the People's Republic of China on October 1, 1949."
                 }
             ]
         }
